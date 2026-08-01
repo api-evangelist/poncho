@@ -1,8 +1,23 @@
 aid: poncho
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/poncho.png
 name: Poncho
-description: Poncho is a company surfaced as a portfolio company of lightspeed-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Poncho was a consumer weather service founded in 2013 in New York City by Kuan Huang
+  and Paul Murphy that delivered a personalized, personality-driven daily forecast through the messaging
+  layer — Facebook Messenger, SMS, email, and Amazon Alexa — rather than a traditional weather app. Backed
+  by Lightspeed Venture Partners, Comcast Ventures, and Lerer Hippeau, the company was acquired by Dirty
+  Lemon and is no longer independently operating. It never published a public developer API, OpenAPI
+  definition, SDKs, or developer portal, so this profile carries identity metadata only.
 url: https://raw.githubusercontent.com/api-evangelist/poncho/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +25,26 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-note: Acquired by Dirty Lemon; consumer weather chatbot, no public API surface.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Weather
+- Chatbot
+- Messaging
+- Conversational
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
