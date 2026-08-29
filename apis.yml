@@ -30,6 +30,8 @@ description: Poncho was a consumer weather service founded in 2013 in New York C
   Lemon and is no longer independently operating. It never published a public developer API, OpenAPI
   definition, SDKs, or developer portal, so this profile carries identity metadata only.
 url: https://raw.githubusercontent.com/api-evangelist/poncho/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
